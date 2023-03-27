@@ -1,0 +1,43 @@
+.CartProductList {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 20px 8px 20px 12px;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-black);
+  font-size: var(--font-md);
+  font-weight: 600;
+  line-height: var(--line-height-md);
+}
+
+.ProductInfoTable {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.ProductImage {
+  margin: 0 8px;
+  width: 60px;
+  height: 78px;
+  object-fit: cover;
+}
+
+.ProductPriceTable {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.ProductPrice {
+  margin-left: 8px;
+  width: 127px;
+  text-align: right;
+}
+
+.DeleteButton {
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  background: url('../../../assets/icons/Icon/cart/cancel.svg');
+}

@@ -4,7 +4,7 @@
 }
 
 .CartTableCheckbox label {
-  margin-left: 8px;
+  margin: 0 8px;
   color: var(--color-black);
   font-size: var(--font-md);
   font-weight: 600;
@@ -36,9 +36,12 @@
   margin-right: 8px;
 }
 
+.CartTableList {
+  border-bottom: 1px solid var(--color-black);
+}
+
 .CartTableListItem {
   padding: 16px 0;
-  border-bottom: 1px solid var(--color-black);
   line-height: var(--line-height-md);
   color: var(--color-black);
   font-size: var(--font-md);
@@ -55,6 +58,23 @@
   height: 30px;
   background: url(../../../../assets/icons/Icon/cart/type=Refrigerated.svg);
 }
+
+.Frozen::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../../assets/icons/Icon/cart/type=Frozen.svg);
+}
+
+.Normal::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../../assets/icons/Icon/cart/type=_Normal.svg);
+}
+
 
 .ListArrow {
   line-height: var(--line-height-md);
